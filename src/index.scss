@@ -1,0 +1,61 @@
+//
+// Variables
+//
+$white-color: #e6e6e6;
+$primary-color-100: #3b71e4;
+$primary-color-200: #254488;
+$secondary-color-100: #2f1650;
+$dark-color: #131018;
+$shadow-color: #0b090e;
+$grey-color-100: #dfdfdf;
+$grey-color-200: #AAAAAA;
+$grey-color-300: #929292;
+$grey-color-400: #6d6d6d;
+$grey-color-500: #505050;
+
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+
+//
+// Default styles
+//
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $dark-color;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: $dark-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary-color-100;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: $primary-color-100;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: auto;
+}

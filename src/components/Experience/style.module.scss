@@ -1,0 +1,107 @@
+@import '../../index.scss';
+
+.wrapper {
+    background: $dark-color;
+    color: $white-color;
+}
+
+.container {
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    @media (max-width: $breakpoint-md) {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+    gap: 2rem;
+
+    @media (max-width: $breakpoint-lg) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: $breakpoint-md) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card {
+    flex: 1;
+    position: relative;
+    background-color: $white-color;
+    border-radius: 5px;
+    padding: 20px;
+    color: $dark-color;
+    overflow: hidden;
+
+    .images {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+
+        img {
+            height: 28px;
+            width: auto;
+        }
+    }
+
+    .imgWrapper {
+        height: 40px;
+        width: 40px;
+        border-radius: 25px;
+        background-color: $secondary-color-100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+        p:first-child {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    .subTitle {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    span {
+        display: block;
+        text-align: left;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .description {
+        color: $grey-color-500;
+    }
+
+    .flag {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 10px;
+        height: 45px;
+        background-color: $primary-color-100;
+        z-index: 1;
+    }
+}

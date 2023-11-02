@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+.wrapper {
+    background: $dark-color;
+    color: $white-color;
+}
+
+.container {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 300;
+
+    @media (max-width: $breakpoint-md) {
+        font-size: 18px;
+    }
+}

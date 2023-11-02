@@ -1,0 +1,31 @@
+@import '../../index.scss';
+
+.wrapper {
+    background: $dark-color;
+    color: $white-color;
+}
+
+.container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    @media (max-width: $breakpoint-md) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.textContent {
+    font-weight: 600;
+    font-size: 65px;
+    text-align: center;
+    margin: auto;
+
+    @media (max-width: $breakpoint-md) {
+        font-size: 28px;
+    }
+}
+
+.showText {
+    display: inline;
+}

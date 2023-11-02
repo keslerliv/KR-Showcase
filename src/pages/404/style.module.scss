@@ -1,0 +1,18 @@
+@import '../../index.scss';
+
+.notFound {
+    text-align: center;
+    color: $white-color;
+    padding-top: 200px;
+
+    h1 {
+        margin: 0;
+        font-size: 100px;
+    }
+
+    p {
+        font-size: 30px;
+        font-weight: 300;
+        margin: 0;
+    }
+}

@@ -1,0 +1,19 @@
+@import '../../index.scss';
+
+.Wrapper {
+    h2 {
+        font-weight: 600;
+        font-size: 40px;
+        margin: 0;
+
+        @media (max-width: $breakpoint-md) {
+            font-size: 30px;
+        }
+    }
+
+    .bottomBar {
+        height: 8px;
+        width: 100px;
+        background: linear-gradient(90deg, $primary-color-200, $primary-color-100);
+    }
+}

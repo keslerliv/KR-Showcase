@@ -1,0 +1,62 @@
+@import '../../index.scss';
+
+.wrapper {
+    background: $dark-color;
+    color: $white-color;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    @media (max-width: $breakpoint-md) {
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+}
+
+.section {
+    flex: 1;
+
+    &:last-child {
+        align-self: flex-end;
+    }
+}
+
+.smallText {
+    font-size: 20px;
+    font-weight: 500;
+    color: $primary-color-100;
+}
+
+.title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.textBorder {
+    height: 8px;
+    width: 220px;
+    background: linear-gradient(90deg, $primary-color-200, $primary-color-100);
+}
+
+.description {
+    font-size: 32px;
+    font-weight: 300;
+    color: $grey-color-100;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    svg {
+        stroke: $white-color;
+        fill: $white-color;
+    }
+}
