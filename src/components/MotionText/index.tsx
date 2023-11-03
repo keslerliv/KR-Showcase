@@ -39,6 +39,7 @@ export function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
     }
     moveBy += directionFactor.current * moveBy * velocityFactor.get();
     baseX.set(baseX.get() + moveBy);
+    return t;
   });
 
   return (
