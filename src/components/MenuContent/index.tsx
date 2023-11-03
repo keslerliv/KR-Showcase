@@ -17,15 +17,18 @@ export default function MenuContent({ status, closeModal }: MenuContentProps) {
           className={styles.menuContent}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-        >
+          exit={{ opacity: 0 }}>
           <ul>
             {options.map((option, index) => (
               <motion.li
                 whileHover={{ scale: 1.15, fontWeight: 700 }}
                 onClick={closeModal}
                 key={index}>
-                <a href={option.url}>{option.name}</a>
+                <a
+                  href={option.url}
+                  title={`Scroll to ${option.name}`}>
+                  {option.name}
+                </a>
               </motion.li>
             ))}
           </ul>

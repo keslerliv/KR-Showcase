@@ -1,22 +1,22 @@
 export const socials = [
-    {
-      title: 'Ttile',
-      img: '/icons/email.svg',
-      url: '/'
-    },
-    {
-      title: 'Ttile',
-      img: '/icons/github.svg',
-      url: '/'
-    },
-    {
-      title: 'Ttile',
-      img: '/icons/linkedin.svg',
-      url: '/'
-    },
-    {
-      title: 'Ttile',
-      img: '/icons/instagram.svg',
-      url: '/'
-    }
+  {
+    title: 'Send Mail',
+    img: '/icons/email.svg',
+    url: 'mailto:email@gmail.com'
+  },
+  {
+    title: 'Github',
+    img: '/icons/github.svg',
+    url: 'https://github.com/'
+  },
+  {
+    title: 'Linkedin',
+    img: '/icons/linkedin.svg',
+    url: 'https://www.linkedin.com/'
+  },
+  {
+    title: 'Instagram',
+    img: '/icons/instagram.svg',
+    url: 'https://www.instagram.com/'
+  }
 ]

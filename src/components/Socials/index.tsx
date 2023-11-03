@@ -34,11 +34,13 @@ export default function Socials() {
       <div className={styles.social}>
         {socials.map((social, index) => (
           <motion.a
+            key={index}
             variants={socialItem}
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }}
             href={social.url}
-            target='_blank'>
+            target='_blank'
+            title={`Link to my ${social.title}`}>
             <img src={social.img} key={index} alt="Enviar email" title='Enviar email' />
           </motion.a>
         ))}

@@ -47,8 +47,8 @@ export default function Experience() {
               <div className={styles.flag}></div>
               <span>0{index + 1}</span>
               <div className={styles.images}>
-                {card.images.map((image) => (
-                  <>
+                {card.images.map((image, index) => (
+                  <div key={index}>
                     <motion.div
                       data-tooltip-id={`motion-img-${image.id}`}
                       className={styles.imgWrapper}
@@ -56,13 +56,14 @@ export default function Experience() {
                       <img
                         key={image.id}
                         src={image.img}
-                        alt="" />
+                        alt={image.title}
+                        title={image.title} />
                     </motion.div>
                     <Tooltip
                       id={`motion-img-${image.id}`}
                       place="bottom"
                       content={image.title} />
-                  </>
+                  </div>
                 ))}
               </div>
               <div className={styles.title}>

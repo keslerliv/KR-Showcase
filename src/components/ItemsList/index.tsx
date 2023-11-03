@@ -42,8 +42,8 @@ export default function ItemsList({ title, items }: ItemsListProps) {
         viewport={{ once: true, amount: 0.8 }}
         variants={container}
         className={styles.ItemsList}>
-        {items.map((value) =>
-          <>
+        {items.map((value, index) =>
+          <div key={index}>
             <motion.img
               data-tooltip-id={`motion-img-${value.id}`}
               variants={item}
@@ -57,7 +57,7 @@ export default function ItemsList({ title, items }: ItemsListProps) {
               id={`motion-img-${value.id}`}
               place="bottom"
               content={value.title} />
-          </>
+          </div>
         )}
       </motion.div>
     </div>
