@@ -29,7 +29,7 @@ export default function Experience() {
   return (
     <section id='experience' className={styles.wrapper}>
       <div className={styles.container}>
-        <SimpleTitle title='Experience' />
+        <SimpleTitle title='Experiência' />
 
         <motion.div
           variants={container}

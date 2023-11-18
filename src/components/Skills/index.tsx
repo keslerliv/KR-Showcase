@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section id='skills' className={styles.wrapper}>
       <div className={styles.container}>
-        <SimpleTitle title='Skills' />
+        <SimpleTitle title='Habilidades' />
         <p className={styles.description}>
           Minhas principais habilidades.
         </p>
