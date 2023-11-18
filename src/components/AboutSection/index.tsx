@@ -22,14 +22,18 @@ export default function About() {
   return (
     <section id='about' className={styles.wrapper}>
       <div className={styles.container}>
-        <SimpleTitle title='About me' />
+        <SimpleTitle title='Sobre mim' />
         <motion.p
           initial="offscreen"
           whileInView="onscreen"
           variants={textVariants}
           viewport={{ once: true }}
           className={styles.description}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae, unde asperiores reprehenderit enim dolores consequatur veritatis quis neque nostrum. Voluptatem eum commodi atque est facilis ipsum ex molestias amet.
+          Ola, sou um Desenvolvedor Fullstack apaixonado, destaco principalmente
+          minhas habilidades com React, React Native e Django Rest Framework,
+          com experiência sólida em micro-frontend e criação de libs.
+          Comprometido com BDD e TDD, busco a entrega de código limpo e de
+          alta qualidade
         </motion.p>
         <motion.p
           initial="offscreen"
@@ -37,7 +41,10 @@ export default function About() {
           variants={textVariants}
           viewport={{ once: true }}
           className={styles.description}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae perferendis autem corrupti nemo modi ullam voluptates vel pariatur, explicabo ad.
+          Conto com um histórico de contribuições em projetos significativos,
+          vivência com Google Cloud e GA4, além do desenvolvimento de plugins e
+          temas para Wordpress. Atualmente, lidero o desenvolvimento de um
+          aplicativo de rede social.
         </motion.p>
         <motion.p
           initial="offscreen"
@@ -45,7 +52,10 @@ export default function About() {
           variants={textVariants}
           viewport={{ once: true }}
           className={styles.description}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime fugit laborum nobis, distinctio nemo a ipsa cum quidem similique officia veritatis, alias consectetur neque dolor ex at nam dignissimos impedit.
+          Caracterizado por excelente comunicação, proatividade e produtividade,
+          estou constantemente aprimorando minhas habilidades. Almejo ser uma
+          referência na área de tecnologia, contribuindo para projetos inovadores e
+          inspirando os outros
         </motion.p>
       </div>
     </section>

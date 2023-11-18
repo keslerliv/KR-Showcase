@@ -1,18 +1,18 @@
 export const options = [
     {
-        name: 'Skills',
+        name: 'Habilidades',
         url: '/#skills',
     },
     {
-        name: 'About',
+        name: 'Sobre',
         url: '/#about',
     },
     {
-        name: 'Experience',
+        name: 'Experiência',
         url: '/#experience',
     },
     {
-        name: 'Academic',
+        name: 'Formação',
         url: '/#academic',
     }
 ]

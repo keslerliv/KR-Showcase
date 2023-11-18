@@ -1,35 +1,12 @@
 export const cards = [
     {
-        title: 'Computing Science',
-        subTitle: '',
-        date: '25/04/2017 - 25/04/2021',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, laboriosam?',
-        images: [
-            '/skills/css3.svg',
-            '/skills/css3.svg',
-            '/skills/css3.svg',
-        ]
+        title: 'Ciência da Computação - Estácio',
+        date: '2020 - 2024',
+        description: `O curso proporcionou uma visão abrangente das diversas áreas da computação, estabelecendo uma sólida base para a construção dos meus conhecimentos.`,
     },
     {
-        title: 'Computing Science',
-        subTitle: '',
-        date: '25/04/2017 - 25/04/2021',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, laboriosam?',
-        images: [
-            '/skills/css3.svg',
-            '/skills/css3.svg',
-            '/skills/css3.svg',
-        ]
-    },
-    {
-        title: 'Computing Science',
-        subTitle: '',
-        date: '25/04/2017 - 25/04/2021',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-        images: [
-            '/skills/css3.svg',
-            '/skills/css3.svg',
-            '/skills/css3.svg',
-        ]
+        title: 'Desenho Mecânico - SENAI',
+        date: '2018 - 2019',
+        description: `Iniciei minha jornada profissional com este curso, onde aprendi bastante sobre o mercado e pude obter conhecimento em softwares de modelagem`,
     },
 ]

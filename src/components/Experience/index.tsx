@@ -50,7 +50,7 @@ export default function Experience() {
                 {card.images.map((image, index) => (
                   <div key={index}>
                     <motion.div
-                      data-tooltip-id={`motion-img-${image.id}`}
+                      data-tooltip-id={`exp-img-${image.id}`}
                       className={styles.imgWrapper}
                       whileHover={{ scale: 1.2 }}>
                       <img
@@ -60,7 +60,7 @@ export default function Experience() {
                         title={image.title} />
                     </motion.div>
                     <Tooltip
-                      id={`motion-img-${image.id}`}
+                      id={`exp-img-${image.id}`}
                       place="bottom"
                       content={image.title} />
                   </div>

@@ -20,7 +20,7 @@ export default function TextSection() {
             initial={{ opacity: 0.2 }}
             animate={{ opacity: firstIsView && !secondIsView ? 1 : .2 }}
             transition={{ duration: .3 }}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae. {' '}
+            Transformando ideias em código, criando soluções que impulsionam o futuro da tecnologia.
           </motion.p>
 
           <motion.p
@@ -29,7 +29,7 @@ export default function TextSection() {
             initial={{ opacity: 0.2 }}
             animate={{ opacity: secondIsView ? 1 : .2 }}
             transition={{ duration: .3 }}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae.
+            {' '}Desenvolvimento é minha paixão, minha missão e propósito.
           </motion.p>
         </div>
       </div>

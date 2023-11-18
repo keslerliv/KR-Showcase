@@ -28,7 +28,7 @@ export default function Academic() {
   return (
     <section id='academic' className={styles.wrapper}>
       <div className={styles.container}>
-        <SimpleTitle title='Academic' />
+        <SimpleTitle title='Formação' />
         <motion.div
           variants={container}
           initial="hidden"
