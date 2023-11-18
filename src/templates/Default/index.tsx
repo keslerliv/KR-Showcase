@@ -39,7 +39,7 @@ export default function DefaultTemplate({ children }: DefaultTemplateProps) {
           animationData={RobotAnimation} />
         <div className={styles.container}>
           <h2 className={styles.title}>
-            Feel free to connect on social media.
+            Sinta-se livre para entrar em contato!
           </h2>
           <Socials />
           <p className={styles.bottomText}>
